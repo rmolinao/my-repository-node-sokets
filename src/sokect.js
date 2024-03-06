@@ -1,4 +1,9 @@
-console.log("sokect");
-module.exports = (io) => {
-    console.log('Archivo socket ha sido cargado');
+module.exports = io_Client => {
+    io_Client.on('connection', socket => {
+        console.log('Un usuario se ha conectado');
+        socket.on('disconnect', () => {
+            console.log('El usuario se ha desconectado');
+        });
+
+    });
 }
