@@ -2,6 +2,26 @@
     margin: 0 auto;
     width: 300px;
 }
+
+#username{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
 #white_mesage{
     padding: 20px;
+}
+
+#all_messages{
+    height: 300px;
+    overflow: auto;
+}
+.message{
+    background-color: #1ca2d6;
+    color: white;
+    padding: 5px;
+    margin-top: 12px;
+    display: inline-block;
+    margin-left: auto;
+    border-radius: 10px;
 }
