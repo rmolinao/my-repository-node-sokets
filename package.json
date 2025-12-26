@@ -4,7 +4,8 @@
   "description": "configuracion previa\r comandos\r npm init -y",
   "main": "app.js",
   "scripts": {
-    "server": "nodemon src/app.js"
+    "server": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
